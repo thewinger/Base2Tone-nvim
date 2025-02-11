@@ -25,7 +25,7 @@ local colors = {
 	B2T_C7 = "#fbf9f9",
 	B2T_D0 = "#10242C",
 	B2T_D1 = "#16323E",
-	B2T_D2 = "#1C404F",
+	B2T_D2 = "#9ccfd8",
 	B2T_D3 = "#224F61",
 	B2T_D4 = "#285D72",
 	B2T_D5 = "#2F6B84",
@@ -34,4 +34,3 @@ local colors = {
 }
 
 return colors
-
