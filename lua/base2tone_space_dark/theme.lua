@@ -15,7 +15,7 @@ theme.set_highlights = function()
 	hl(0, "Comment", { fg = c.B2T_A3, bg = "NONE", italic = true })
 	hl(0, "ColorColumn", { fg = "NONE", bg = c.B2T_A1 })
 	hl(0, "Conceal", { fg = c.B2T_D5, bg = "NONE" })
-	hl(0, "Cursor", { fg = c.B2T_B5, bg = c.B2T_D2 })
+	hl(0, "Cursor", { fg = c.B2T_B7, bg = c.B2T_D2 })
 	hl(0, "lCursor", { fg = c.B2T_A0, bg = c.B2T_D2 })
 	hl(0, "CursorIM", { fg = c.B2T_A0, bg = c.B2T_D2 })
 	hl(0, "CursorColumn", { fg = "NONE", bg = c.B2T_A1 })
@@ -469,4 +469,3 @@ theme.set_highlights = function()
 end
 
 return theme
-
