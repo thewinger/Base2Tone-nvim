@@ -27,12 +27,10 @@ local colors = {
 	B2T_D1 = "#cb5c25",
 	B2T_D2 = "#dd672c",
 	B2T_D3 = "#e66e33",
-	B2T_D4 = "#ec7336",
+	B2T_D4 = "#c6005c",
 	B2T_D5 = "#f37b3f",
 	B2T_D6 = "#f88349",
-	-- B2T_D7 = "#fe8c52",
 	B2T_D7 = "#f472b6",
 }
 
 return colors
-
