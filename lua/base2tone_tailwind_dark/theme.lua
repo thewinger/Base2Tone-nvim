@@ -1,4 +1,4 @@
-local c = require("base2tone_space_dark.palette")
+local c = require("base2tone_tailwind_dark.palette")
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
