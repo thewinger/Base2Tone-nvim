@@ -3,8 +3,7 @@ local c = require("base2tone_space_dark.palette")
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
-theme.set_highlights = function()
-	-- base
+theme.set_highlights = function() -- base
 	hl(0, "Normal", { fg = c.B2T_B5, bg = c.B2T_A0 })
 	hl(0, "NormalNC", { fg = c.B2T_B5, bg = c.B2T_A1 })
 	hl(0, "NormalSB", { fg = c.B2T_B5, bg = c.B2T_A1 })

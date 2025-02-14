@@ -1,10 +1,9 @@
-local c = require("base2tone_rosepine_dark.palette")
+local c = require("base2tone_space_dark.palette")
 
 local hl = vim.api.nvim_set_hl
 local theme = {}
 
-theme.set_highlights = function()
-	-- base
+theme.set_highlights = function() -- base
 	hl(0, "Normal", { fg = c.B2T_B5, bg = c.B2T_A0 })
 	hl(0, "NormalNC", { fg = c.B2T_B5, bg = c.B2T_A1 })
 	hl(0, "NormalSB", { fg = c.B2T_B5, bg = c.B2T_A1 })
@@ -15,7 +14,7 @@ theme.set_highlights = function()
 	hl(0, "Comment", { fg = c.B2T_A3, bg = "NONE", italic = true })
 	hl(0, "ColorColumn", { fg = "NONE", bg = c.B2T_A1 })
 	hl(0, "Conceal", { fg = c.B2T_D5, bg = "NONE" })
-	hl(0, "Cursor", { fg = c.B2T_A0, bg = c.B2T_D2 })
+	hl(0, "Cursor", { fg = c.B2T_B7, bg = c.B2T_D2 })
 	hl(0, "lCursor", { fg = c.B2T_A0, bg = c.B2T_D2 })
 	hl(0, "CursorIM", { fg = c.B2T_A0, bg = c.B2T_D2 })
 	hl(0, "CursorColumn", { fg = "NONE", bg = c.B2T_A1 })
@@ -469,4 +468,3 @@ theme.set_highlights = function()
 end
 
 return theme
-
