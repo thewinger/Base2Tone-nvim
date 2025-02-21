@@ -92,7 +92,7 @@ theme.set_highlights = function() -- base
 	hl(0, "StorageClass", { fg = c.B2T_B5, bg = "NONE" })
 	hl(0, "Structure", { fg = c.B2T_B3, bg = "NONE" })
 	hl(0, "Typedef", { fg = c.B2T_B3, bg = "NONE" })
-	hl(0, "Special", { fg = c.B2T_A7, bg = "NONE" })
+	hl(0, "Special", { fg = c.B2T_B4, bg = "NONE" })
 	hl(0, "SpecialChar", { fg = c.B2T_PINK_ALT, bg = "NONE" })
 	hl(0, "Tag", { fg = c.B2T_B5, bg = "NONE" })
 	hl(0, "Delimiter", { fg = c.B2T_A3, bg = "NONE" })
@@ -465,6 +465,9 @@ theme.set_highlights = function() -- base
 	hl(0, "MarkSignHL", { fg = c.B2T_PINK_MAIN, bg = c.B2T_A1 })
 	hl(0, "MarkSignNumHL", { fg = c.B2T_A5, bg = c.B2T_A1 })
 	hl(0, "MarkVirtTextHL", { fg = c.B2T_A5, bg = c.B2T_A1 })
+
+	-- Syntax
+	hl(0, "@variable", { fg = c.B2T_B4, bg = "NONE" })
 end
 
 return theme

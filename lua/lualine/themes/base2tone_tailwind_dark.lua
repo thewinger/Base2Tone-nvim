@@ -43,9 +43,9 @@ local colors = {
 -- LuaFormatter on
 return {
 	normal = {
-		a = { fg = colors.B2T_A1, bg = colors.B2T_B2, gui = "bold" },
-		b = { fg = colors.B2T_B2, bg = colors.B2T_A0 },
-		c = { fg = colors.B2T_A4, bg = colors.B2T_A1 },
+		a = { fg = colors.B2T_A1, bg = colors.B2T_A7, gui = "bold" },
+		b = { fg = colors.B2T_A7, bg = colors.B2T_A0 },
+		c = { fg = colors.B2T_A4, bg = colors.B2T_A0 },
 	},
 	insert = { a = { fg = colors.B2T_A1, bg = colors.B2T_D2, gui = "bold" } },
 	visual = { a = { fg = colors.B2T_A1, bg = colors.B2T_C2, gui = "bold" } },
