@@ -41,7 +41,7 @@ theme.set_highlights = function() -- base
 	hl(0, "MatchParen", { fg = c.B2T_A7, bg = c.B2T_A2 })
 	hl(0, "ModeMsg", { fg = c.B2T_B2, bg = "NONE" })
 	hl(0, "MoreMsg", { fg = c.B2T_B2, bg = "NONE" })
-	hl(0, "NonText", { fg = c.fg_dark, bg = "NONE" }) -- virtual text
+	hl(0, "NonText", { fg = c.primary, bg = "NONE" }) -- virtual text
 	hl(0, "Pmenu", { fg = c.fg_light, bg = c.bg_med })
 	hl(0, "PmenuSel", { fg = c.bg_dark, bg = c.B2T_A7 })
 	hl(0, "PmenuSbar", { fg = c.bg_med, bg = c.bg_med })
