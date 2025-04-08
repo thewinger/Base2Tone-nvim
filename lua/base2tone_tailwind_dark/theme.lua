@@ -4,7 +4,7 @@ local hl = vim.api.nvim_set_hl
 local theme = {}
 
 theme.set_highlights = function() -- base
-	hl(0, "Normal", { fg = c.fg_med })
+	hl(0, "Normal", { fg = c.fg_med, bg = c.bg_dark })
 	hl(0, "NormalNC", { fg = c.fg_med, bg = c.bg_med })
 	hl(0, "NormalSB", { fg = c.fg_med, bg = c.bg_med })
 	hl(0, "NormalFloat", { fg = c.fg_med, bg = c.bg_dark })
