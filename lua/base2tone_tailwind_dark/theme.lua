@@ -55,7 +55,7 @@ theme.set_highlights = function() -- base
 	hl(0, "SpellCap", { fg = c.primary_alt, bg = c.bg_dark })
 	hl(0, "SpellLocal", { fg = c.primary_alt, bg = c.bg_dark })
 	hl(0, "SpellRare", { fg = c.fg_dark, bg = c.bg_dark })
-	hl(0, "StatusLine", { fg = c.comment, bg = c.bg_dark })
+	hl(0, "StatusLine", { fg = c.comment, bg = c.bg_med })
 	hl(0, "StatusLineNC", { fg = c.fg_dark, bg = c.bg_med })
 	hl(0, "TabLine", { fg = c.comment, bg = c.bg_med })
 	hl(0, "TabLineFill", { fg = c.comment, bg = c.bg_med })
