@@ -33,7 +33,7 @@ theme.set_highlights = function() -- base
 	hl(0, "VertSplit", { fg = c.bg_dark, bg = c.bg_dark })
 	hl(0, "Folded", { fg = c.comment, bg = c.bg_med })
 	hl(0, "FoldColumn", { fg = c.primary_alt, bg = c.bg_med })
-	hl(0, "SignColumn", { fg = c.comment, bg = c.bg_med })
+	hl(0, "SignColumn", { fg = c.comment, bg = c.bg_dark })
 	hl(0, "SignColumnSB", { fg = c.bg_med, bg = c.bg_med })
 	hl(0, "Substitute", { fg = c.fg_med, bg = c.bg_med })
 	hl(0, "LineNr", { fg = c.comment, bg = c.bg_dark })
