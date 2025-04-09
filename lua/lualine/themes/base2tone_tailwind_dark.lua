@@ -2,58 +2,48 @@
 -- MIT license, see LICENSE for more details.
 -- Credit: Zoltan Dalmadi(lightline)
 -- LuaFormatter off
-local colors = {
-	B2T_A0 = "#24242e",
-	B2T_A1 = "#333342",
-	B2T_A2 = "#515167",
-	B2T_A3 = "#5b5b76",
-	B2T_A4 = "#737391",
-	B2T_A5 = "#8a8aa3",
-	B2T_A6 = "#a1a1b5",
-	B2T_A7 = "#b8b8c7",
 
+local colors = {
+	bg_dark = "#020617",
+	bg_med = "#0f172a",
+	B2T_A2 = "#334155",
+	B2T_A4 = "#475569",
+	B2T_A5 = "#64748b",
+	B2T_A6 = "#94a3b8",
+	comment = "#cbd5e1",
+	B2T_A7 = "#e2e8f0",
 	B2T_B0 = "#5151e6",
 	B2T_B1 = "#6363ee",
 	B2T_B2 = "#7676f4",
-	B2T_B3 = "#767693",
+	fg_dark = "#e2e8f0",
 	B2T_B4 = "#8a8aad",
-	B2T_B5 = "#aaaaca",
+	fg_med = "#e2e8f0",
 	B2T_B6 = "#cecee3",
-	B2T_B7 = "#ebebff",
+	fg_light = "#f8fafc",
 
-	B2T_C0 = "#7b736f",
-	B2T_C1 = "#8e8580",
-	B2T_C2 = "#a09792",
-	B2T_C3 = "#b1a9a5",
-	B2T_C4 = "#c3bbb7", -- not used
-	B2T_C5 = "#d8cfcb",
-	B2T_C6 = "#eae4e1", -- not used
-	B2T_C7 = "#fbf9f9", -- not used
-
-	B2T_D0 = "#8b0836",
-	B2T_D1 = "#a50036",
-	B2T_D2 = "#f6339a",
-	B2T_D3 = "#f6339a",
-	B2T_D4 = "#f6339a",
-	B2T_D5 = "#fb64b6",
-	B2T_D6 = "#fb64b6",
-	B2T_D7 = "#fb64b6",
+	primary_alt = "#f6339a",
+	primary_main = "#fb64b6",
+	error = "#FB7185",
+	warning = "#FBBF24",
+	success = "#34D399",
+	hint = "#38BDF8",
+	info = "#7DD3FC",
 }
 
 -- LuaFormatter on
 return {
 	normal = {
-		a = { fg = colors.B2T_A1, bg = colors.B2T_A7, gui = "bold" },
-		b = { fg = colors.B2T_A7, bg = colors.B2T_A0 },
-		c = { fg = colors.B2T_A4, bg = colors.B2T_A0 },
+		a = { fg = colors.bg_med, bg = colors.B2T_A7, gui = "bold" },
+		b = { fg = colors.B2T_A7, bg = colors.bg_dark },
+		c = { fg = colors.B2T_A4, bg = colors.bg_dark },
 	},
-	insert = { a = { fg = colors.B2T_A1, bg = colors.B2T_D2, gui = "bold" } },
-	visual = { a = { fg = colors.B2T_A1, bg = colors.B2T_C2, gui = "bold" } },
-	command = { a = { fg = colors.B2T_A1, bg = colors.B2T_B1, gui = "bold" } },
-	replace = { a = { fg = colors.B2T_A1, bg = colors.B2T_A6, gui = "bold" } },
+	insert = { a = { fg = colors.bg_med, bg = colors.primary_main, gui = "bold" } },
+	visual = { a = { fg = colors.bg_med, bg = colors.B2T_B4, gui = "bold" } },
+	command = { a = { fg = colors.bg_med, bg = colors.B2T_B1, gui = "bold" } },
+	replace = { a = { fg = colors.bg_med, bg = colors.B2T_A6, gui = "bold" } },
 	inactive = {
 		a = { fg = colors.B2T_A2, bg = colors.B2T_A4, gui = "bold" },
-		b = { fg = colors.B2T_A4, bg = colors.B2T_A1 },
-		c = { fg = colors.B2T_A3, bg = colors.B2T_A1 },
+		b = { fg = colors.B2T_A4, bg = colors.bg_med },
+		c = { fg = colors.B2T_A4, bg = colors.bg_med },
 	},
 }
