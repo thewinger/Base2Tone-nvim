@@ -64,7 +64,7 @@ theme.set_highlights = function() -- base
 	hl(0, "Visual", { fg = "NONE", bg = c.B2T_A2 })
 	hl(0, "VisualNOS", { fg = c.B2T_B0, bg = "NONE" })
 	hl(0, "WarningMsg", { fg = c.warning, bg = "NONE" })
-	hl(0, "Whitespace", { fg = c.fg_dark, bg = "NONE", italic = true })
+	hl(0, "Whitespace", { fg = c.comment, bg = "NONE", italic = true })
 	hl(0, "WildMenu", { fg = c.bg_dark, bg = c.fg_dark })
 	hl(0, "Constant", { fg = c.fg_dark, bg = "NONE" })
 	hl(0, "String", { fg = c.fg_light, bg = "NONE" })
